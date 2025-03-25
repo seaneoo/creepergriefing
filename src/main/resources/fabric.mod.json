@@ -1,0 +1,36 @@
+{
+    "schemaVersion": 1,
+    "id": "creepergriefing",
+    "version": "${version}",
+    "name": "creeperGriefing",
+    "description": "/gamerule creeperGriefing false",
+    "authors": [
+        {
+            "name": "seano",
+            "contact": {
+                "homepage": "https://seano.dev/"
+            }
+        }
+    ],
+    "contact": {
+        "sources": "https://github.com/seaneoo/creepergriefing",
+        "issues": "https://github.com/seaneoo/creepergriefing/issues"
+    },
+    "license": "MIT",
+    "icon": "icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "dev.seano.creepergriefing.CreeperGriefing"
+        ]
+    },
+    "mixins": [
+        "creepergriefing.mixins.json"
+    ],
+    "depends": {
+        "minecraft": "${minecraft_version}",
+        "fabricloader": ">=${loader_version}",
+        "fabric-language-kotlin": ">=${kotlin_loader_version}",
+        "fabric": ">=${fabric_version}"
+    }
+}
