@@ -28,7 +28,7 @@
         "creepergriefing.mixins.json"
     ],
     "depends": {
-        "minecraft": "${minecraft_version}",
+        "minecraft": ">=${minecraft_version}",
         "fabricloader": ">=${loader_version}",
         "fabric-language-kotlin": ">=${kotlin_loader_version}",
         "fabric": ">=${fabric_version}"
